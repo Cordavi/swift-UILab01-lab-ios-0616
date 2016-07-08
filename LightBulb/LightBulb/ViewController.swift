@@ -24,13 +24,13 @@ class ViewController: UIViewController {
     @IBAction func colorSelected(sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
-            changeColor("red".color)
+            changeColor(to: "red".color)
         case 1:
-            changeColor("yellow".color)
+            changeColor(to: "yellow".color)
         case 2:
-            changeColor("blue".color)
+            changeColor(to: "blue".color)
         case 3:
-            changeColor("green".color)
+            changeColor(to: "green".color)
         default:
             break
         }
